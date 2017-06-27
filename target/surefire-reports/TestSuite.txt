@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 3.648 sec <<< FAILURE! - in TestSuite
+testInit(com.microsoft.mysearch.qa.pages.HomePageTest)  Time elapsed: 2.952 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: java.net.MalformedURLException: no protocol: /
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MININT-76T37AD', ip: '10.93.188.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: HtmlUnitDriver
+	at java.net.URL.<init>(URL.java:593)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:525)
+	at com.microsoft.mysearch.qa.pages.HomePageTest.testInit(HomePageTest.java:18)
+
